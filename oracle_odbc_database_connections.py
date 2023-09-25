@@ -40,7 +40,8 @@ class database_credential():
             print("Connection Lost")
 
 
-database_credential('user', 'password', 'server').oracle()
+# database_credential('user', 'password', 'server').oracle()
+# database_credential('user', 'password', 'server').odbc()
 
 #Best practices rehuse your code by create classes
 
