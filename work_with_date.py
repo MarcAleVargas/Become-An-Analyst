@@ -2,7 +2,7 @@ from datetime import datetime as dt
 from workdays import workday
 from pandas import DataFrame, date_range
 
-today = dt.now() #retrieve yout machine local date and time
+today = dt.now() #retrieve your machine local date and time
 year = dt.now().strftime("%y")
 YEAR = dt.now().strftime("%Y")
 
