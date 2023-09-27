@@ -1,1 +1,13 @@
 Here I will be adding SQL example, stay tuned
+
+Everything starts with:
+
+SELECT
+    *
+FROM TABLE_NAME
+
+/////////////////////////////////////////////////////
+
+SELECT
+    *
+FROM FOLDERS_NAME.TABLE_NAME
