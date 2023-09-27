@@ -17,13 +17,13 @@ class database():
     
     def connection(self):
         try:
-            if self.database == 'oracle_(Name)':
+            if self.database == 'oracle':
                 self.connection = cx_Oracle.connect(self.database_user,
                                     self.database_password,
                                     self.database_server)
                 self.cursor = self.connection.cursor()
 
-            elif self.database == 'odbc_(Name)':
+            elif self.database == 'odbc':
                     self.connection = pyodbc.connect(
                         f"""DSN={self.self.database_server};
                         UID={self.self.database_user};
