@@ -3,11 +3,32 @@ Here I will be adding SQL example, stay tuned
 Everything starts with:
 
 SELECT
-    *
-FROM TABLE_NAME
 
-/////////////////////////////////////////////////////
+    *
+
+FROM
+
+TABLE_NAME
+
+///////////////////////////////////////////////////// depending the location you need to add the path/folders. * MEANS SELECT ALL THE FIELDS/COLUMNS
 
 SELECT
+
     *
-FROM FOLDERS_NAME.TABLE_NAME
+
+FROM 
+
+FOLDERS_NAME.TABLE_NAME GIVENNAME
+
+/////////////////////////////////////////////////// fields / columns can be selected as below
+
+SELECT
+
+    GIVENNAME.COL_1,
+    GIVENNAME.COL_2,
+    GIVENNAME.COL_3,
+    GIVENNAME.COL_4
+
+FROM 
+
+TABLE_NAME GIVENNAME
