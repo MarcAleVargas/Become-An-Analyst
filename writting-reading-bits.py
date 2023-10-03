@@ -36,5 +36,5 @@ def decode_binary_combination(*args):
                 message.extend(value_to_retrieve)
 
     final_message = "".join(message)
-    print(f'The bitnary input is:{result}\nthe message is {final_message}\nand decimal representation: {letters}')
+    print(f'The binary input is:{result}\nthe message is {final_message}\nand decimal representation: {letters}')
 decode_binary_combination(generate_binary_combination('Hello, World!'))
