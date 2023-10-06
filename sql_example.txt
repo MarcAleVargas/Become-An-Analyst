@@ -1,34 +1,64 @@
 Here I will be adding SQL example, stay tuned
 
-Everything starts with:
+
+
+clause(select){ 
 
 SELECT
 
     *
+
+or
+
+SELECT
+
+    COL_1,
+    COL_2,
+    COL_3,
+    COL_4
+
+}
+
+
+
+clause(from){
 
 FROM
 
 TABLE_NAME
 
-///////////////////////////////////////////////////// depending the location you need to add the path/folders. * MEANS SELECT ALL THE FIELDS/COLUMNS
-
-SELECT
-
-    *
+or
 
 FROM 
 
-FOLDERS_NAME.TABLE_NAME GIVENNAME
+FOLDERS_NAME.TABLE_NAME
+}
 
-/////////////////////////////////////////////////// fields / columns can be selected as below
+
+
+clause(where){
+
+WHERE
+
+COL_1 = 'SQL'
+}
+
+
+
+basis_sql(statement){
 
 SELECT
 
-    GIVENNAME.COL_1,
-    GIVENNAME.COL_2,
-    GIVENNAME.COL_3,
-    GIVENNAME.COL_4
+    COL_1,
+    COL_2,
+    COL_3,
+    COL_4
 
 FROM 
 
-TABLE_NAME GIVENNAME
+TABLE_NAME
+
+WHERE
+
+COL_1 = 'SQL'
+}
